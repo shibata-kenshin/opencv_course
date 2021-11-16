@@ -11,7 +11,7 @@ img = cv.imread('Resources/Photos/cats.jpg')
 cv.imshow('Cats', img)
 
 blank = np.zeros(img.shape, dtype='uint8')
-cv.imshow('Bkank', blank)
+cv.imshow('Blank', blank)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('GRAY', gray)
